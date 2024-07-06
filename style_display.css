@@ -1,0 +1,28 @@
+.Pagination{
+   text-align: center;
+}
+.Pagination a{ 
+/* pagination ya class madhe asanarya sarva anchor tag var lavane */
+    text-decoration: none;
+    padding: 8px 15px;
+    display:inline-block;
+
+}
+.Pagination a.active{
+    /* pagination ya class madhe asanarya anchor tag chya active class madhe lavane */
+    background-color: greenyellow;
+    border: 1px solid black;
+    
+}
+
+.dropdown button{
+    background-color: white;
+    border: none;
+    padding: 8px 13px;
+    
+}
+.dropdown a{
+    display:inline-block;
+    text-decoration: none;
+    padding: 8px 13px;
+}
