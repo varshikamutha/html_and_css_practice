@@ -14,15 +14,40 @@
     border: 1px solid black;
     
 }
-
+.dropdown{
+    display: inline-block;
+    float: right;
+    
+}
 .dropdown button{
-    background-color: white;
+    background-color: rgb(192, 189, 189);
     border: none;
+    margin: 0;
     padding: 8px 13px;
+    color: rgb(210, 30, 150);
+    cursor: pointer; /*U see what's happing when curson is over it*/
     
 }
 .dropdown a{
-    display:inline-block;
+    display:block;
     text-decoration: none;
     padding: 8px 13px;
+    color: balck;
+    text-decoration: center;
 }
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: rgb(225, 230, 230);
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.782);
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: rgb(225, 199, 249);
+}
+.dropdown a:hover{
+    background-color: aqua;
+}
+
