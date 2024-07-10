@@ -45,9 +45,9 @@
     /* transform: rotateX(45deg); */
     /* transform: scale(1.1);/*1.1 means 10% */ 
 }
-#boxx1{background-color: aqua;}
-#boxx2{background-color: pink;}
-#boxx3{background-color: palevioletred;}
+#boxx1{background-color: aqua; position: relative; z-index: 10;}
+#boxx2{background-color: pink; position: relative; z-index: 1;}
+#boxx3{background-color: palevioletred; position: relative; z-index: 10;}
 
 /*animations*/
 #boox{
